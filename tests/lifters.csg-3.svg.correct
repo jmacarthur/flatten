@@ -1,0 +1,127 @@
+<svg width="200mm" height="200mm" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<g>
+<circle cx="0" cy="0" r="10" style="fill:stroke-width:1;stroke:rgb(0,0,0)"/>
+<polygon points="-10,-85.58 -10,0 10,0 10,-85.58 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<polygon points="-10,-88.58 -10,-85.58 0,-85.58 0,-88.58 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<polygon points="7.07107,7.07107 38.890885,-24.748745 24.748745,-38.890885 -7.07107,-7.07107 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<circle cx="0" cy="0" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="20" cy="-20" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="30" cy="-25" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="15" cy="-10" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+</g>
+<g>
+<circle cx="0" cy="0" r="10" style="fill:stroke-width:1;stroke:rgb(0,0,0)"/>
+<polygon points="-10,-85.58 -10,0 10,0 10,-85.58 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<polygon points="-10,-88.58 -10,-85.58 0,-85.58 0,-88.58 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<polygon points="7.07107,7.07107 38.890885,-24.748745 24.748745,-38.890885 -7.07107,-7.07107 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<circle cx="0" cy="0" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="20" cy="-20" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="30" cy="-25" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="15" cy="-10" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+</g>
+<g>
+<polygon points="3,-10 146,-10 146,10 3,10 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<polygon points="0,0 3,0 3,10 0,10 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<polygon points="146,0 149,0 149,10 146,10 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+</g>
+<g>
+<polygon points="37.08,-42 107.08,-42 107.08,10 37.08,10 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<circle cx="42.48" cy="-39" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<polygon points="41.48,-43 43.48,-43 43.48,-38 41.48,-38 " style="stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/> 
+<circle cx="57.64" cy="-39" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<polygon points="56.64,-43 58.64,-43 58.64,-38 56.64,-38 " style="stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/> 
+<circle cx="72.8" cy="-39" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<polygon points="71.8,-43 73.8,-43 73.8,-38 71.8,-38 " style="stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/> 
+<circle cx="87.96" cy="-39" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<polygon points="86.96,-43 88.96,-43 88.96,-38 86.96,-38 " style="stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/> 
+<circle cx="103.12" cy="-39" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<polygon points="102.12,-43 104.12,-43 104.12,-38 102.12,-38 " style="stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/> 
+</g>
+<g>
+<circle cx="0" cy="0" r="10" style="fill:stroke-width:1;stroke:rgb(0,0,0)"/>
+<polygon points="-10,-95.58 -10,0 10,0 10,-95.58 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<polygon points="-10,-98.58 -10,-95.58 0,-95.58 0,-98.58 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<polygon points="-10,0 -10,-45 10,-45 10,0 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<circle cx="0" cy="0" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="20" cy="-20" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="30" cy="-25" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="15" cy="-10" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+</g>
+<g>
+<circle cx="0" cy="0" r="10" style="fill:stroke-width:1;stroke:rgb(0,0,0)"/>
+<polygon points="-10,-95.58 -10,0 10,0 10,-95.58 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<polygon points="-10,-98.58 -10,-95.58 0,-95.58 0,-98.58 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<polygon points="-10,0 -10,-45 10,-45 10,0 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<circle cx="0" cy="0" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="20" cy="-20" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="30" cy="-25" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="15" cy="-10" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+</g>
+<g>
+<polygon points="3,-10 154,-10 154,10 3,10 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<polygon points="0,0 3,0 3,10 0,10 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<polygon points="154,0 157,0 157,10 154,10 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+</g>
+<g>
+<polygon points="0,0 70,0 70,55 0,55 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+</g>
+<g>
+<polygon points="38.08,-98.58 108.08,-98.58 108.08,-78.58 38.08,-78.58 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<circle cx="42.48" cy="-87.08" r="3" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="57.64" cy="-87.08" r="3" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="72.8" cy="-87.08" r="3" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="87.96" cy="-87.08" r="3" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="103.12" cy="-87.08" r="3" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+</g>
+<g>
+<circle cx="0" cy="0" r="10" style="fill:stroke-width:1;stroke:rgb(0,0,0)"/>
+<polygon points="-10,-123.48 -10,0 10,0 10,-123.48 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<polygon points="-10,-126.48 -10,-123.48 0,-123.48 0,-126.48 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<polygon points="7.07107,7.07107 38.890885,-24.748745 24.748745,-38.890885 -7.07107,-7.07107 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<circle cx="0" cy="0" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="20" cy="-20" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="30" cy="-25" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="15" cy="-10" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+</g>
+<g>
+<circle cx="0" cy="0" r="10" style="fill:stroke-width:1;stroke:rgb(0,0,0)"/>
+<polygon points="-10,-123.48 -10,0 10,0 10,-123.48 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<polygon points="-10,-126.48 -10,-123.48 0,-123.48 0,-126.48 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<polygon points="7.07107,7.07107 38.890885,-24.748745 24.748745,-38.890885 -7.07107,-7.07107 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<circle cx="0" cy="0" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="20" cy="-20" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="30" cy="-25" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="15" cy="-10" r="2.5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+</g>
+<g>
+<polygon points="3,-10 162,-10 162,10 3,10 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<polygon points="0,0 3,0 3,10 0,10 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<polygon points="162,0 165,0 165,10 162,10 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+</g>
+<g>
+<polygon points="0,0 80,0 80,60 0,60 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+</g>
+<g>
+<polygon points="32.08,-126.48 112.08,-126.48 112.08,-78.58 32.08,-78.58 " style="stroke-width:1;stroke:rgb(0,0,0)"/> 
+<circle cx="42.48" cy="-117.4" r="5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="42.48" cy="-102.24" r="5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="42.48" cy="-87.08" r="5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<polygon points="37.48,-87.08 47.48,-87.08 47.48,-67.08 37.48,-67.08 " style="stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/> 
+<circle cx="57.64" cy="-117.4" r="5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="57.64" cy="-102.24" r="5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="57.64" cy="-87.08" r="5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<polygon points="52.64,-87.08 62.64,-87.08 62.64,-67.08 52.64,-67.08 " style="stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/> 
+<circle cx="72.8" cy="-117.4" r="5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="72.8" cy="-102.24" r="5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="72.8" cy="-87.08" r="5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<polygon points="67.8,-87.08 77.8,-87.08 77.8,-67.08 67.8,-67.08 " style="stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/> 
+<circle cx="87.96" cy="-117.4" r="5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="87.96" cy="-102.24" r="5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="87.96" cy="-87.08" r="5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<polygon points="82.96,-87.08 92.96,-87.08 92.96,-67.08 82.96,-67.08 " style="stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/> 
+<circle cx="103.12" cy="-117.4" r="5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="103.12" cy="-102.24" r="5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<circle cx="103.12" cy="-87.08" r="5" style="fill:stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/>
+<polygon points="98.12,-87.08 108.12,-87.08 108.12,-67.08 98.12,-67.08 " style="stroke-width:1;stroke:rgb(0,0,0)" negative="yes"/> 
+</g>
+</svg>
