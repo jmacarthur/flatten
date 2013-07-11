@@ -55,7 +55,25 @@ while(my $l = <INPUTSVG>)
 	for my $i(@items) {
 	    my $nextPoly = $i;
 	    if($nextPoly->[0] eq 'NEGATIVE') {	
-		next; # Deal with them next
+
+		shift @$nextPoly;
+		$clipper->clear();
+		$clipper->add_subject_polygon($basePoly);
+		$clipper->add_clip_polygon($nextPoly);
+		my $resultPoly = $clipper->execute(CT_DIFFERENCE);
+                print "Subtracting polygon...\n";
+                # What is this check for? You split the polygon in two parts?
+		if(@{$resultPoly}>1) {
+		    # Nope
+		    dumpPoly($resultPoly->[1],1);
+                    print "Subtraction resulted in ".@{$resultPoly}." polygons\n";
+		}
+		else
+		{
+		    print "Replacing basepoly with result of diff:\n";
+		    #print Dumper($resultPoly);
+		    $basePoly = $resultPoly->[0];
+		}
 	    }
 	    else
 	    {
@@ -85,29 +103,6 @@ while(my $l = <INPUTSVG>)
 	}
 	# BUG: If you have two disjoint objects first which are connected by a third,
 	# This won't union them all together.
-	for my $i(@items) {
-	    my $nextPoly = $i;
-	    if($nextPoly->[0] eq 'NEGATIVE') {	
-		# This just dumps negative objects as new polygons.
-		# We should ATTEMPT to difference these and if it makes
-		# a single object, just keep that.
-		shift @$nextPoly;
-		$clipper->clear();
-		$clipper->add_subject_polygon($basePoly);
-		$clipper->add_clip_polygon($nextPoly);
-		my $resultPoly = $clipper->execute(CT_DIFFERENCE);
-		if(@{$resultPoly}>1) {
-		    # Nope
-		    dumpPoly($nextPoly,1);
-		}
-		else
-		{
-		    print "Replacing basepoly with result of diff:\n";
-		    print Dumper($resultPoly);
-		    $basePoly = $resultPoly->[0];
-		}
-	    }
-	}
 
 	print "Results of group: \n";
 	dumpPoly($basePoly,0);
