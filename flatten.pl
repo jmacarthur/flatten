@@ -554,72 +554,70 @@ sub projectTree
 	return 1;
     }
     if($node->{type} eq "linear_extrude") {
-	if($node->{negate} == 0) {
-	    if($node->{planar} eq "") {
-		print "Non-planar positive extrusion, cannot continue\n";
-		return 0;
-	    }
-	    my @processedPoints = ();
-	    my $finalAxes = matrixMultiplyPlanes($axes,$node->{planar});
-	    #print "Planar extrusion: base planar $node->{planar}, reassign by ".matrixToString($axes)." = ".join(",",@$finalAxes)."\n";
-	    my $args = $node->{contents}->[0]->{args};
-
-	    if(!defined($args)) {
-		$args = $node->{contents}->[0]->{contents}->[0]->{args};
-		if(!defined($args))
-		{
-		    print "Failed to find arguments:\n";
-		    #print Dumper($node);
-		    exit(100);
-		}
-	    }
-	    print "Need to process polygon args: $args\n";
-
-	    if($args =~ /points\s*=\s*\[\s*(\[.*?\])\s*\],/) {
-		my $pointsText = $1;
-		print "Polygon points: $pointsText\n";
-		my @pointsArray = split(/\]\s*,/,$pointsText);
-		for my $pointText(@pointsArray) {
-		    if($pointText =~ /\[?\s*(-?\d+\.?\d*e?-?\d*)\s*,\s*(-?\d+\.?\d*e?-?\d*)\s*\]?/)
-		    {
-			my ($x,$y) = ($1,$2);
-			# Now process them...
-			print "Process points: $x,$y on axis ".matrixToString($axes)."\n";
-			my $pv1 = [$y,$x,0]; # Note: using x,y directly, not projecting - 
-			# original below:
-			#matrixMultiply1D($axes,[ 0,$x,$y ]); # TODO: why am I putting x,y there?
-			print "Resuilts of multiply: $pv1->[0],$pv1->[1],$pv1->[2]\n";
-			$pv1->[0] += $translate->[0];
-			$pv1->[1] += $translate->[1];
-			push @processedPoints, $pv1;
-		    }
-		    else
-		    {
-			print "Unrecognisable polygon point text: $pointText\n";
-			exit(4);
-		    }
-
-		}
-	    }
-	    else
-	    {
-		print "Unrecognisable polygon arg text: $args\n";
-		exit(5);
-	    }
-	    
-	    print SVG "<polygon points=\"";	
-	    for my $p(@processedPoints) {
-		print SVG "$p->[0],$p->[1] ";
-	    }
-	    print SVG "\" style=\"stroke-width:1;stroke:rgb(0,0,0)\"";
-	    if($node->{negate}) {
-		print SVG " negative=\"yes\"";
-	    }
-	    
-	    print SVG "/> \n";
-	    
-	}
-	return 1;
+        if($node->{negate} == 0 && $node->{planar} eq "") {
+            print "Non-planar positive extrusion, cannot continue\n";
+            return 0;
+        }
+        my @processedPoints = ();
+        my $finalAxes = matrixMultiplyPlanes($axes,$node->{planar});
+        #print "Planar extrusion: base planar $node->{planar}, reassign by ".matrixToString($axes)." = ".join(",",@$finalAxes)."\n";
+        my $args = $node->{contents}->[0]->{args};
+        
+        if(!defined($args)) {
+            $args = $node->{contents}->[0]->{contents}->[0]->{args};
+            if(!defined($args))
+            {
+                print "Failed to find arguments:\n";
+                #print Dumper($node);
+                exit(100);
+            }
+        }
+        print "Need to process polygon args: $args\n";
+        
+        if($args =~ /points\s*=\s*\[\s*(\[.*?\])\s*\],/) {
+            my $pointsText = $1;
+            print "Polygon points: $pointsText\n";
+            my @pointsArray = split(/\]\s*,/,$pointsText);
+            for my $pointText(@pointsArray) {
+                if($pointText =~ /\[?\s*(-?\d+\.?\d*e?-?\d*)\s*,\s*(-?\d+\.?\d*e?-?\d*)\s*\]?/)
+                {
+                    my ($x,$y) = ($1,$2);
+                    # Now process them...
+                    print "Process points: $x,$y on axis ".matrixToString($axes)."\n";
+                    my $pv1 = [$y,$x,0]; # Note: using x,y directly, not projecting - 
+                    # original below:
+                    #matrixMultiply1D($axes,[ 0,$x,$y ]); # TODO: why am I putting x,y there?
+                    print "Resuilts of multiply: $pv1->[0],$pv1->[1],$pv1->[2]\n";
+                    $pv1->[0] += $translate->[0];
+                    $pv1->[1] += $translate->[1];
+                    push @processedPoints, $pv1;
+                }
+                else
+                {
+                    print "Unrecognisable polygon point text: $pointText\n";
+                    exit(4);
+                }
+                
+            }
+        }
+        else
+        {
+            print "Unrecognisable polygon arg text: $args\n";
+            exit(5);
+        }
+        
+        print SVG "<polygon points=\"";	
+        for my $p(@processedPoints) {
+            print SVG "$p->[0],$p->[1] ";
+        }
+        print SVG "\" style=\"stroke-width:1;stroke:rgb(0,0,0)\"";
+        if($node->{negate}) {
+            print SVG " negative=\"yes\"";
+        }
+        
+        print SVG "/> \n";
+        
+        return 1;
     }
     if($node->{type} eq "Reassign") {
 	my @m = readMatrix($node->{args});
