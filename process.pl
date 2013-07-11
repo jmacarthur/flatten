@@ -153,12 +153,13 @@ sub dumpPoly
 	print OUTPUTSVG "\" style=\"stroke-width:0.1;stroke:#000000;stroke-opacity:1;fill:none\"/> \n";
         print "About to offset polygon:\n";
         print Dumper($p);
+        my $actualkerf = $kerf;
         if($neg) {
-            $kerf = -$kerf;
+            $actualkerf = -$kerf;
         }
-        my $offset_polygons = offset([$p], $kerf, 100, JT_SQUARE);
         print "Results of offsetting:\n";
         print Dumper($offset_polygons);
+        my $offset_polygons = offset([$p], $actualkerf, 100, JT_SQUARE);
 	print OUTPUTSVG "<polygon points=\"";
 	for my $pp(@{$offset_polygons->[0]}) {
 	    my ($x,$y) = ($pp->[0]/1000,$pp->[1]/1000);
