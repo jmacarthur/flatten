@@ -153,7 +153,6 @@ sub dumpPoly
             $actualkerf = -$kerf;
         }
         print "Results of offsetting:\n";
-        print Dumper($offset_polygons);
         my $offset_polygons = offset([$p], $actualkerf, 100, JT_SQUARE);
 	print OUTPUTSVG "<polygon points=\"";
 	for my $pp(@{$offset_polygons->[0]}) {

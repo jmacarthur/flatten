@@ -201,7 +201,7 @@ sub categorizeMatrix
     my $determinant = abs(determinant(\@matrix));
     if($determinant < 0.999999 || $determinant > 1.000001) {
 	print "Matrix with non-unit determinant ($determinant)\n";
-	exit(1);
+	return 0;
     }
     
     if(checkTranslationMatrix($node)) { return 1; }
